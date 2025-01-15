@@ -1,0 +1,75 @@
+.codegpt
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# MyPy type checking
+.mypy_cache/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+
+# Test outputs
+.tox/
+.nox/
+.coverage
+
+# Data and cache
+*.sqlite3
+*.db
+.DS_Store
+
+# Linting
+.pylint.d/
+flake8.log
+.mypy_cache/
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.pt
+*.pdf
+*.rar
+*.zip
+
+# Repos
+yolov5/
+data/
+labelImg/
