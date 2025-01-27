@@ -70,6 +70,6 @@ flake8.log
 *.zip
 
 # Repos
-yolov5/
 data/
 labelImg/
+runs/
