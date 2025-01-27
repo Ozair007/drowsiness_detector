@@ -1,0 +1,14 @@
+path: ./data
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ["awake", "drowsy"]
+
+roboflow:
+    workspace: ltomic01
+    project: driver-drowsiness-detection-gk0ws
+    version: 1
+    license: CC BY 4.0
+    url: https://universe.roboflow.com/ltomic01/driver-drowsiness-detection-gk0ws/dataset/1
